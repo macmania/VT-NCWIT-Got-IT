@@ -24,14 +24,14 @@
     font-family:Varela Round;
     font-size: 3.0em;
     float:left;
-    padding-top: 10px;
-    padding-left: 45%;
+    padding-top: 40px;
+    padding-left: 30%;
 }
 
 
 .column {
     float:left;
-    padding-left:30px;
+    padding-left:400px;
 }
 
 a {
@@ -40,7 +40,7 @@ a {
 }
 
 /**not working for some reason**/s
-a :hover {
+a:hover {
     background:darksalmon;
     cursor:pointer;
 }
@@ -50,6 +50,10 @@ a :hover {
     font-family:Lato;
     position:relative;
     top:-80%;
+    padding-left: 400px;
+    margin-right: auto;
+    position: relative;
+    padding-top: 80px;
 }
 
 /**End second page***/
@@ -80,7 +84,8 @@ a :hover {
 footer{
     background-color: rgb(163,157,152);
     width:100%;
-    height:20%;
+    height:10%;
+
 }
 
 .rred {
@@ -88,7 +93,14 @@ footer{
 }
 
 
-.made {
-    font-family:Lato;
-    font-size:medium;
+#contact, #made {
+    padding-left:45%;
+    font-size:1.5em;
+    position:relative;
+    padding-top:30px;
+}
+
+#contact {
+    top:10px;
+    padding-left:47%;
 }
