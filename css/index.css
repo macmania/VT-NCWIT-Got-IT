@@ -1,0 +1,94 @@
+/**
+* Styling rules for index.html
+****/
+
+/**group picture is not well pixilated, needs another good quality
+    picture**/
+.firstPage {
+    background-image: url("../img/groupblur.jpeg");
+    background-size: cover;
+    width:100%;
+    height: 100%;
+}
+
+.background {
+    background: rgb(97,99,97);
+    background-size: cover;
+    opacity:.6;
+    height:inherit;
+}
+
+.menu {
+    position:fixed;
+    margin: 0 auto;
+    font-family:Varela Round;
+    font-size: 3.0em;
+    float:left;
+    padding-top: 10px;
+    padding-left: 45%;
+}
+
+
+.column {
+    float:left;
+    padding-left:30px;
+}
+
+a {
+    text-decoration:none;
+    color:black;
+}
+
+/**not working for some reason**/s
+a :hover {
+    background:darksalmon;
+    cursor:pointer;
+}
+
+.message {
+    font-size: 4.5em;
+    font-family:Lato;
+    position:relative;
+    top:-80%;
+}
+
+/**End second page***/
+
+/**Second section*/
+.about {
+    background-color: rgb(62,105,143);
+    color:black;
+    font-family:Lato;
+    font-size: 4em;
+    width:100%;
+    height:100%
+}
+
+.mission-statement {
+    padding-top: 8%;
+    margin: 0 auto;
+    position:relative;
+}
+
+/*snap-shot of the officers in charge, two pictures*/
+.team {
+
+}
+
+
+/*footer*/
+footer{
+    background-color: rgb(163,157,152);
+    width:100%;
+    height:20%;
+}
+
+.rred {
+    color:red;
+}
+
+
+.made {
+    font-family:Lato;
+    font-size:medium;
+}
