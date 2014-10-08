@@ -111,3 +111,31 @@ footer{
     top:30px;
     padding-left:47%;
 }
+
+#current-projects {
+    background-color: rgb(129,133,112);
+    background-size:cover;
+    width:100%;
+    height: 35%;
+    font-family:Lato;
+    font-size:5.0em;
+}
+
+#proj1{
+    text-align:center;
+    padding-top:20px;
+}
+
+/**Short description of Allison and the other girl's biography**/
+.team{
+    background-color:whitesmoke;
+    background-size: cover;
+    width:100%;
+    height:25%;
+    font-size:3.5em;
+    font-family:Lato;
+}
+
+.item .allison{
+
+}
