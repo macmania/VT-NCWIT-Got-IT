@@ -69,9 +69,16 @@ a:hover {
 }
 
 .mission-statement {
-    padding-top: 8%;
+    padding-top: 6%;
     margin: 0 auto;
     position:relative;
+    padding-left: 700px;
+}
+
+.mission{
+    padding-left: 200px;
+    padding-top: 50px;
+    font-size: 1.15em;
 }
 
 /*snap-shot of the officers in charge, two pictures*/
