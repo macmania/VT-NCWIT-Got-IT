@@ -22,11 +22,37 @@
     position:fixed;
     margin: 0 auto;
     font-family:Varela Round;
-    font-size: 3.0em;
+    font-size: 3.5em;
     float:left;
     padding-top: 40px;
     padding-left: 30%;
+    width:100%;
+    height:5%;
+    background-size:cover;
+    background-color:transparent;
 }
+
+.menu-navbar {
+    font-family:Lato;
+    position:fixed;
+    margin:0 auto;
+    float:left;
+    padding-top: 40px;
+    padding-left: 30%;
+    font-size: 4.5em;
+    width: 100%;
+    background-color: #3e8f64;
+    background-size: cover;
+    height: 7%;
+    color: black;
+    border-color: #3e8f64; /*Temporary for now*/
+    border: 1px solid #3e8f64;
+    display: block;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+
 
 
 .column {
@@ -135,7 +161,7 @@ footer{
     font-size:3.5em;
     font-family:Lato;
 }
-
+/**The size of allison and sveltana's picture is messed up**/
 .item .allison{
 
 }
