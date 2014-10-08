@@ -4,6 +4,10 @@
 
 /**group picture is not well pixilated, needs another good quality
     picture**/
+section{
+    word-wrap: break-word;
+}
+
 .firstPage {
     background-image: url("../img/groupblur.jpeg");
     background-size: cover;
