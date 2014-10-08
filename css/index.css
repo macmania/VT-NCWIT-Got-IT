@@ -37,6 +37,7 @@ section{
 }
 
 .menu-navbar {
+    transition: all 0.1s ease-in-out;
     font-family:Lato;
     position:fixed;
     margin:0 auto;
@@ -161,11 +162,31 @@ footer{
     background-color:whitesmoke;
     background-size: cover;
     width:100%;
-    height:25%;
+    height:15%;
     font-size:3.5em;
     font-family:Lato;
 }
 /**The size of allison and sveltana's picture is messed up**/
-.item .allison{
 
+
+
+.readmore {
+    padding-right: 20%;
+}
+
+.readmore a{
+    border: 1px solid black;
+    transition: all 0.1s ease-in-out;
+    border-radius: 2px;
+    width: 10%;
+    position: relative;
+    float: right;
+    padding-right: 10px;
+}
+
+.readmore a:hover {
+
+    border: 1px solid hotpink;
+    transition: all 0.1s ease-in-out;
+    color: #3B579D;
 }
