@@ -1,6 +1,7 @@
 <!Doctype>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -20,11 +21,15 @@
     <!--These menu items are to be changed-->
     <div id="navbar">
         <div class="navbar menu">
-            <div class="column"><a href="#home">Home</a></div>
-            <div class="column"><a href="/team.html">Team</a></div>
-            <div class="column"><a href="#apply">Apply</a></div>
-                <!--might have to change this one up a bit, experiment with putting this in the bottom or having
-                it pop-up-->
+            <div class="ui grid" style="padding-top:.5%;">
+                <div class="three column row">
+                    <div class="column"><a href="#home">Home</a></div>
+                    <div class="column"><a href="/team.html">Team</a></div>
+                    <div class="column"><a href="#apply">Apply</a></div>
+                        <!--might have to change this one up a bit, experiment with putting this in the bottom or having
+                        it pop-up-->
+                </div>
+            </div>
         </div>
     </div>
 
@@ -81,9 +86,9 @@
     </section>
 
     <section class="team" style="text-align:center">
-        <div class="ui horizontal list" style="text-align:center; padding-top:40px;">
+        <div class="ui horizontal list" style="text-align:center; padding-top:.7%;">
             <div class="item allison">
-                <img src="/img/allison.jpg" style="border-radius: 50%; padding-left: 10px;">
+                <img src="/img/allison.jpg" style="border-radius: 50%; padding-left: 10%;">
                 <div>Allison Collier</div>
             </div>
             <div class="item svetlana">
