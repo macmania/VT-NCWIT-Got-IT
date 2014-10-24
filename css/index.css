@@ -116,11 +116,6 @@ a:hover {
     font-size: 1.15em;
 }
 
-/*snap-shot of the officers in charge, two pictures*/
-.team {
-
-}
-
 
 /*footer*/
 footer{
@@ -166,8 +161,8 @@ footer{
     background-color:whitesmoke;
     background-size: cover;
     width:100%;
-    height:40%;
-    font-size:3.5em;
+    height:50%;
+    font-size:2.5em;
     font-family:Lato;
 }
 /**The size of allison and sveltana's picture is messed up**/
